@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import './App.css';
 import { Route } from 'react-router-dom';
 import { NavBar } from './NavBar';
-import { Menu } from './Menu';
+import Menu from './Menu';
 import { Contact } from './Contact';
 
 
 class App extends Component {
-    constructor() {
+  constructor() {
     super();
     this.state = {
     }

@@ -1,0 +1,23 @@
+.option:hover {
+  cursor: pointer;
+}
+
+.option {
+  margin: 5px;
+  border: 1px solid red;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+
+#menu {
+  display: flex;
+  margin: 5%;
+}
+
+.menu-item {
+  margin-left: 10px;
+}

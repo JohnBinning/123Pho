@@ -2,6 +2,6 @@ import React from 'react';
 
 export const Appetizers = () => {
   return (
-    <div>Appetizers go here</div>
+    <div className='menu-item'>Appetizers go here</div>
   )
 }

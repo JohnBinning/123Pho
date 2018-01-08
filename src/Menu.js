@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Appetizers } from './MenuComponents/Appetizers.js'
-import { MenuList } from './MenuComponents/MenuList.js'
+import { Appetizers } from './MenuComponents/Appetizers.js';
+import { Soup } from './MenuComponents/Soup.js';
+import { MenuList } from './MenuComponents/MenuList.js';
 import './Menu.css';
 
 class Menu extends Component  {
@@ -8,7 +9,7 @@ class Menu extends Component  {
     super();
     this.state = {
       menuChoice: 'appetizers'
-    }
+    };
   }
 
   toggleChoice(input) {
@@ -18,12 +19,24 @@ class Menu extends Component  {
   }
 
   render() {
+    let menuItem = <Appetizers />;
+      switch(this.state.menuChoice) {
+        case 'appetizers':
+          menuItem = <Appetizers />;
+          break;
+        case 'soup':
+          menuItem = <Soup />;
+          break;
+        default:
+          menuItem = <Appetizers />;
+      }
+    
     return (
-      <div>Menu goes here
+      <div id='menu'>
         <MenuList 
           menuChoice={ this.state.menuChoice }
           toggleChoice={ this.toggleChoice.bind(this) }/>
-        <Appetizers />
+        {menuItem}
       </div>
     )
   }

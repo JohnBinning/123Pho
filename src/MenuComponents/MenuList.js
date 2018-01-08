@@ -4,7 +4,7 @@ export const MenuList = (props) => {
   const { menuChoice, toggleChoice } = props;
   return (
     <div>MenuList goes here
-      <section>
+      <section className='menu-list'>
         <div 
           className='option appetizers'
           onClick={toggleChoice.bind(this, 'appetizers')}

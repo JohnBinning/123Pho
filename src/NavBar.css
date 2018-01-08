@@ -1,0 +1,13 @@
+.nav-link-wrapper {
+  padding: 10px;
+  margin: 10px;
+}
+
+.nav-link {
+  color: black;
+  margin: 10px;
+}
+
+.selected {
+  color: #D7404C !important;
+}

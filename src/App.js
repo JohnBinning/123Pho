@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Route, Link } from 'react-router-dom';
-
+import { Route } from 'react-router-dom';
 import { NavBar } from './NavBar';
+import { Contact } from './Contact';
 
 
 class App extends Component {
@@ -15,15 +15,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className='routes'>
-            <Route path='/' component={ NavBar } />
-=          </div>
+        <NavBar />
         <a href='http://123phorestaurant.com' role='link'>
           <img className='logo' alt="123Pho logo" src='assets/123pho-logo.jpg'/>
         </a>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className='routes'>
+            <Route path='/' component={ Contact } />
+        </div>
+
       </div>
     );
   }

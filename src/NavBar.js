@@ -8,6 +8,7 @@ export const NavBar = () => {
         <div className='nav-link-wrapper'>
           <NavLink to='/Home' className='nav-link' activeClassName='selected'>HOME</NavLink>
           <NavLink to='/Menu' className='nav-link' activeClassName='selected'>OUR MENU</NavLink>
+          <NavLink to='/Contact' className='nav-link' activeClassName='selected'>CONTACT</NavLink>
         </div>
       </div>
     </article>

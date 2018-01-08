@@ -1,13 +1,23 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Route, Link } from 'react-router-dom';
+
+import { NavBar } from './NavBar';
+
 
 class App extends Component {
+    constructor() {
+    super();
+    this.state = {
+    }
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
+        <div className='routes'>
+            <Route path='/' component={ NavBar } />
+=          </div>
         <a href='http://123phorestaurant.com' role='link'>
           <img className='logo' alt="123Pho logo" src='assets/123pho-logo.jpg'/>
         </a>

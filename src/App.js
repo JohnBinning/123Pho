@@ -1,19 +1,31 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Route } from 'react-router-dom';
+import { NavBar } from './NavBar';
+import { Menu } from './Menu';
+import { Contact } from './Contact';
+
 
 class App extends Component {
+    constructor() {
+    super();
+    this.state = {
+    }
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
+        <header>To Place Your Order, Call Us at (303) 471-2228 or Visit Us at 11804 E. Oswego Street, Suite C, Englewood, CO 80112</header>
+        <NavBar />
         <a href='http://123phorestaurant.com' role='link'>
           <img className='logo' alt="123Pho logo" src='assets/123pho-logo.jpg'/>
         </a>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className='routes'>
+            <Route path='/contact' component={ Contact } />
+            <Route path='/menu' component={ Menu } />
+        </div>
+
       </div>
     );
   }

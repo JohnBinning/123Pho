@@ -25,6 +25,7 @@ class App extends Component {
             <Route path='/contact' component={ Contact } />
             <Route path='/menu' component={ Menu } />
         </div>
+        <div id='copyright'>© 2017 1-2-3 Pho, Inc. All rights reserved.</div>
 
       </div>
     );

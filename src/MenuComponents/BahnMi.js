@@ -2,6 +2,6 @@ import React from 'react';
 
 export const BahnMi = () => {
   return (
-    <div className='menu-item'>Bahn Mi go here</div>
+    <div className='menu-cat'>Bahn Mi go here</div>
   )
 }

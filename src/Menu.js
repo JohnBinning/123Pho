@@ -72,12 +72,15 @@ class Menu extends Component  {
       }
     
     return (
-      <div id='menu'>
-        <MenuList 
-          menuChoice={ this.state.menuChoice }
-          toggleChoice={ this.toggleChoice.bind(this) }/>
-        {menuItem}
-      </div>
+      <section id='menu-wrapper'>
+        <div id='menu'>
+          <MenuList 
+            menuChoice={ this.state.menuChoice }
+            toggleChoice={ this.toggleChoice.bind(this) }/>
+          {menuItem}
+        </div>
+        <div id='disclosure'>Call (303) 471-2228 to order. All prices are subject to change without notice.</div>
+      </section>
     )
   }
 

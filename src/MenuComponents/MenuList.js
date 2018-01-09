@@ -8,7 +8,7 @@ export const MenuList = (props) => {
         <div 
           className='option appetizers'
           onClick={toggleChoice.bind(this, 'appetizers')}
-          >Appetiers
+          >Appetizers
         </div>
         <div 
           className='option soup'

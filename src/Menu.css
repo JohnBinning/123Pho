@@ -18,6 +18,35 @@
   margin: 5%;
 }
 
-.menu-item {
+.menu-cat {
   margin-left: 10px;
+  width: 100%;
+}
+
+#disclosure {
+  margin-bottom: 50px;
+}
+
+.menu-line {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid gray;
+  padding: 5px;
+}
+
+.menu-item-description {
+  display: flex;
+}
+
+.menu-modifier {
+  color: white;
+  width: 100px !important;
+  background-color: #F12426;
+  padding: 2px;
+  border-radius: 5px;
+  margin-left: 15px;;
 }

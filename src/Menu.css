@@ -50,3 +50,27 @@
   border-radius: 5px;
   margin-left: 15px;;
 }
+
+.price {
+  display: flex;
+}
+
+.right-table,
+.right-table-2 {
+  margin-right: 10px;
+}
+
+.right-table {
+  margin-left: 50px;
+}
+.right-table-2{
+  margin-left: 44px;
+}
+
+.small {
+  margin-right: 5px;
+}
+
+.large {
+  margin-right: 35px;
+}

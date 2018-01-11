@@ -4,7 +4,7 @@
 
 .option {
   margin: 5px;
-  border: 1px solid red;
+  border: 1px solid #F12426;
 }
 
 .menu-list {
@@ -38,7 +38,7 @@
   padding: 5px;
 }
 
-.menu-item-description {
+.menu-item-name {
   display: flex;
 }
 
@@ -76,5 +76,13 @@
 }
 
 .selected-list {
-  background-color: gray;
+  background-color: #797979;
+}
+
+#description-addition {
+  color: #F12426;
+}
+
+#menu-header-description {
+  color: #797979;
 }

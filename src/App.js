@@ -25,6 +25,7 @@ class App extends Component {
             <Route path='/contact' component={ Contact } />
             <Route path='/menu' component={ Menu } />
         </div>
+        <a class="chownow-order-online" href='https://ordering.chownow.com/order/9341/locations' target="_blank">VIEW MENU &amp; ORDER PICKUP OR DELIVERY</a>
         <div id='copyright'>© 2017 1-2-3 Pho, Inc. All rights reserved.</div>
 
       </div>

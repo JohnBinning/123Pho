@@ -7,7 +7,7 @@ export const MenuList = (props) => {
     {name: 'salad', display: 'Vietnamese Salad'},
     {name: 'bahnmi', display: 'Bánh Mí – Vietnamese Sandwich'},
     {name: 'pho', display: 'Pho Noodle Soup'},
-    {name: 'asain', display: 'Asain Specialties'},
+    {name: 'asain', display: 'Asian Specialties'},
     {name: 'bun', display: 'Bún - Rice Noodle Bowl'},
     {name: 'com', display: 'Com - Rice Plate'},
     {name: 'kids', display: 'Kid\'s Menu'},
@@ -18,14 +18,14 @@ export const MenuList = (props) => {
 
   const { menuChoice, toggleChoice } = props;
 
-  const listHtml = list.map((listItem) => {
+  const listHtml = list.map((listItem, i) => {
     if(listItem.name === menuChoice) {
-      return <div className={`option ${listItem.name} selected-list`}
+      return <div key={i} className={`option ${listItem.name} selected-list`}
           onClick={toggleChoice.bind(this, listItem.name)}
           >{listItem.display}
         </div>
     }
-    return <div className={`option ${listItem.name}`}
+    return <div key={i} className={`option ${listItem.name}`}
         onClick={toggleChoice.bind(this, listItem.name)}
         >{listItem.display}
       </div>

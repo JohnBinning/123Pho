@@ -88,10 +88,22 @@
   font-weight: 300;
 }
 
-#kids-menu-wrapper {
+#boba-menu-wrapper,
+#kids-menu-wrapper,
+#menu-wrapper {
   display: flex;
-  /*align-items: center;*/
+}
+
+#boba-menu-wrapper {
+  justify-content: space-around;
+}
+
+#kids-menu-wrapper {
   justify-content: space-between;
+}
+
+#menu-wrapper {
+  flex-direction: column;
 }
 
 .kids-cat {
@@ -99,10 +111,6 @@
   flex-direction: column;
   margin: 5px;
   align-items: flex-start;
-}
-
-.kids-cat h2 {
-  margin-left: none !important;
 }
 
 .kids-cat-header {

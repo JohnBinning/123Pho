@@ -89,7 +89,8 @@
 }
 
 #boba-menu-wrapper,
-#kids-menu-wrapper {
+#kids-menu-wrapper,
+#menu-wrapper {
   display: flex;
 }
 
@@ -99,6 +100,10 @@
 
 #kids-menu-wrapper {
   justify-content: space-between;
+}
+
+#menu-wrapper {
+  flex-direction: column;
 }
 
 .kids-cat {

@@ -22,12 +22,12 @@ class App extends Component {
         <a href='http://123phorestaurant.com' role='link'>
           <img className='logo' alt="123Pho logo" src='assets/123pho-logo.jpg'/>
         </a>
+        
         <div className='routes'>
             <Route path='/contact' component={ Contact } />
             <Route path='/menu' component={ Menu } />
             <Route path='/' exact component={ Home } />
         </div>
-        <a className="chownow" href='https://ordering.chownow.com/order/9341/locations' target="_blank">VIEW MENU &amp; ORDER PICKUP OR DELIVERY</a>
         <div id='copyright'>© 2017 1-2-3 Pho, Inc. All rights reserved.</div>
 
       </div>

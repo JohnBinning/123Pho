@@ -88,9 +88,16 @@
   font-weight: 300;
 }
 
+#boba-menu-wrapper,
 #kids-menu-wrapper {
   display: flex;
-  /*align-items: center;*/
+}
+
+#boba-menu-wrapper {
+  justify-content: space-around;
+}
+
+#kids-menu-wrapper {
   justify-content: space-between;
 }
 
@@ -99,10 +106,6 @@
   flex-direction: column;
   margin: 5px;
   align-items: flex-start;
-}
-
-.kids-cat h2 {
-  margin-left: none !important;
 }
 
 .kids-cat-header {

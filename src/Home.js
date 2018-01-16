@@ -1,4 +1,6 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+
 import './Home.css';
 
 export const Home = () => {
@@ -18,6 +20,7 @@ export const Home = () => {
         <img className='menu-photo' src='assets/Banh-Mi-Sandwich-2.jpg'/>
         <img className='menu-photo C3' src='assets/C3-Grilled-Pork-Rice-Plate.jpg'/>
       </div>
+      <NavLink to='/Menu' className='bottom-menu-nav-link' activeClassName='selected'>See Our Full Menu</NavLink>
       <a className="chownow" href='https://ordering.chownow.com/order/9341/locations' target="_blank">VIEW MENU &amp; ORDER PICKUP OR DELIVERY</a>
     </article>
   )

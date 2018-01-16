@@ -15,6 +15,19 @@
   margin: 2% 2% 2% 0;
 }
 
+.bottom-menu-nav-link {
+  padding: 10px;
+  color: white;
+  background-color: #F12426;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.bottom-menu-nav-link:hover {
+  color: black;
+  background-color: #FEE253;
+}
+
 @media screen and (max-width: 1000px) {
 
   #photo-wrapper {

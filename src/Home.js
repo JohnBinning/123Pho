@@ -12,6 +12,12 @@ export const Home = () => {
       <div id='homemade'>
         COME ENJOY OUR HOMEMADE FAMILY RECIPES
       </div>
+      <div id='photo-wrapper'>
+        <img className='menu-photo' src='assets/B7-Grilled-Shrimp-Vermicelli-Bowl.jpg'/>
+        <img className='menu-photo' src='assets/C5-Lightly-Fried-Tofu-Rice-Plate.jpg'/>
+        <img className='menu-photo' src='assets/Banh-Mi-Sandwich-2.jpg'/>
+        <img className='menu-photo' src='assets/C3-Grilled-Pork-Rice-Plate.jpg'/>
+      </div>
       <a className="chownow" href='https://ordering.chownow.com/order/9341/locations' target="_blank">VIEW MENU &amp; ORDER PICKUP OR DELIVERY</a>
     </article>
   )

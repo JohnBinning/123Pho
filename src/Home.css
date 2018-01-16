@@ -3,3 +3,22 @@
   flex-direction: column;
   align-items: center;
 }
+
+#photo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-photo {
+  max-height: 190px;
+  max-width: 300px;
+  margin: 2% 2% 2% 0;
+}
+
+@media screen and (max-width: 1000px) {
+
+  #photo-wrapper {
+    flex-wrap: wrap;
+  }
+
+}

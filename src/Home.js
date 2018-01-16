@@ -15,10 +15,10 @@ export const Home = () => {
         COME ENJOY OUR HOMEMADE FAMILY RECIPES
       </div>
       <div id='photo-wrapper'>
-        <img className='menu-photo' src='assets/B7-Grilled-Shrimp-Vermicelli-Bowl.jpg'/>
-        <img className='menu-photo' src='assets/C5-Lightly-Fried-Tofu-Rice-Plate.jpg'/>
-        <img className='menu-photo' src='assets/Banh-Mi-Sandwich-2.jpg'/>
-        <img className='menu-photo C3' src='assets/C3-Grilled-Pork-Rice-Plate.jpg'/>
+        <img className='menu-photo' alt='pic of grilled shrimp vermicelli bowl' src='assets/B7-Grilled-Shrimp-Vermicelli-Bowl.jpg'/>
+        <img className='menu-photo' alt='pic of Lightly Fried Tofu Rice Plate.' src='assets/C5-Lightly-Fried-Tofu-Rice-Plate.jpg'/>
+        <img className='menu-photo' alt='pic of Banh Mi Sandwitch' src='assets/Banh-Mi-Sandwich-2.jpg'/>
+        <img className='menu-photo C3' alt='pic of Grilled Pork Rice Plate' src='assets/C3-Grilled-Pork-Rice-Plate.jpg'/>
       </div>
       <NavLink to='/Menu' className='bottom-menu-nav-link' activeClassName='selected'>See Our Full Menu</NavLink>
       <a className="chownow" href='https://ordering.chownow.com/order/9341/locations' target="_blank">VIEW MENU &amp; ORDER PICKUP OR DELIVERY</a>

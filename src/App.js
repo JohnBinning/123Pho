@@ -26,6 +26,7 @@ class App extends Component {
         <div className='routes'>
             <Route path='/contact' component={ Contact } />
             <Route path='/menu' component={ Menu } />
+            <Route path='/home' exact component={ Home } />
             <Route path='/' exact component={ Home } />
         </div>
         <div id='copyright'>© 2017 1-2-3 Pho, Inc. All rights reserved.</div>

@@ -3,14 +3,17 @@
 }
 
 .option {
-  margin: 5px;
-  border: 1px solid #F12426;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: white;
 }
 
 .menu-list {
   display: flex;
   flex-direction: column;
-  margin: 5%;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
 }
 
 #menu {
@@ -19,8 +22,12 @@
 }
 
 .menu-cat {
-  margin-left: 10px;
+  padding: 10px;
   width: 100%;
+  background-color: #FEE253;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
 }
 
 #disclosure {
@@ -77,6 +84,8 @@
 
 .selected-list {
   background-color: #797979;
+  border-right: none;
+  background-color: #FEE253;
 }
 
 #description-addition {
@@ -116,4 +125,9 @@
 .kids-cat-header {
   display: flex;
   flex-direction: column;
+}
+
+
+@media screen and (max-width: 1000px) { 
+
 }

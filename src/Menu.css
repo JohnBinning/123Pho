@@ -51,12 +51,19 @@
 
 .menu-modifier {
   color: white;
-  width: 100px !important;
+  min-width: 100px;
   background-color: #F12426;
   padding: 2px;
   border-radius: 5px;
   margin-left: 15px;;
   max-height: 20px;
+}
+
+.menu-item-description {
+  font-weight: 300;
+  color: #454746;
+  font-size: .9rem;
+  margin-left: 10px;
 }
 
 .price {
@@ -94,7 +101,7 @@
 }
 
 #menu-header-description {
-  color: #797979;
+  color: #454746;
   font-weight: 300;
 }
 
@@ -128,7 +135,29 @@
   flex-direction: column;
 }
 
+.mobile-menu {
+  display: none;
+}
 
-@media screen and (max-width: 1000px) { 
+
+@media screen and (max-width: 700px) { 
+
+  #menu {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-menu-title {
+    padding: 30px 0;
+    font-size: 1.5rem;
+  }
+
+  .price, .small {
+    margin-right: 5%;
+  }
 
 }

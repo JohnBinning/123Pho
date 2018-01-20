@@ -73,13 +73,63 @@ class Menu extends Component  {
     
     return (
       <section id='menu-wrapper'>
-        <div id='menu'>
+        <div id='menu' class='full-menu'>
           <MenuList 
             menuChoice={ this.state.menuChoice }
             toggleChoice={ this.toggleChoice.bind(this) }/>
           {menuItem}
         </div>
         <div id='disclosure'>Call (303) 471-2228 to order. All prices are subject to change without notice.</div>
+        <div class='mobile-menu'>
+          <article class='mobile-menu-cat'>
+            <div class='mobile-menu-title'>Appetizers:</div>
+            <Appetizers />
+          </article>
+          <article class='mobile-menu-cat'>
+            <div class='mobile-menu-title'>Soup:</div>
+            <Soup />
+          </article>
+          <article class='mobile-menu-cat'>
+            <div class='mobile-menu-title'>Vietnamese Salad:</div>
+            <Salad />
+          </article>
+          <article class='mobile-menu-cat'>
+            <div class='mobile-menu-title'>Bánh Mí – Vietnamese Sandwich:</div>
+            <BahnMi />
+          </article>
+          <article class='mobile-menu-cat'>
+            <div class='mobile-menu-title'>Pho Noodle Soup:</div>
+            <Pho />
+          </article>
+          <article class='mobile-menu-cat'>
+            <div class='mobile-menu-title'>Asian Specialties:</div>
+            <AsianSpecialties />
+          </article>
+          <article class='mobile-menu-cat'>
+            <div class='mobile-menu-title'>Bún - Rice Noodle Bowl:</div>
+            <Bun />
+          </article>
+          <article class='mobile-menu-cat'>
+            <div class='mobile-menu-title'>Com - Rice Plate:</div>
+            <Com />
+          </article>
+          <article class='mobile-menu-cat'>
+            <div class='mobile-menu-title'>Kid's Menu:</div>
+            <Kids />
+          </article>
+          <article class='mobile-menu-cat'>
+            <div class='mobile-menu-title'>Boba Smoothies:</div>
+            <Boba />
+          </article>
+          <article class='mobile-menu-cat'>
+            <div class='mobile-menu-title'>Beverages:</div>
+            <Beverages />
+          </article>
+          <article class='mobile-menu-cat'>
+            <div class='mobile-menu-title'>Desserts:</div>
+            <Desserts />
+          </article>
+        </div>
       </section>
     )
   }

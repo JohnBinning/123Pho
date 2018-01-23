@@ -7,12 +7,54 @@
 #photo-wrapper {
   display: flex;
   justify-content: center;
+  padding: 10px;
+}
+
+#welcome-message {
+  padding: 20px 10% 0;
+  line-height: 15pt;
+}
+
+#homemade {
+  margin-bottom: 20px;
+}
+
+#external-menus {
+  display: flex;
+}
+
+.chow-now{
+  margin-left: 20px;
+}
+
+.ext-menu-link {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  /*background-color: #19AE61;*/
+  background-color: #F12426;
+}
+
+.ext-menu-link,
+.menu-photo,
+.bottom-menu-nav-link {
+  box-shadow: 2px 2px 10px gray;
+}
+
+.ext-menu-link:hover {
+  background-color: #FEE253;
+  color: #000;
 }
 
 .menu-photo {
   max-height: 190px;
   max-width: 300px;
   margin: 2% 2% 2% 0;
+  border-radius: 5px;
+  /*border: 1px solid #19AE61;
+  border-right: 1px solid #FEE253;
+  border-left: 1px solid #F12426;*/
 }
 
 .bottom-menu-nav-link {

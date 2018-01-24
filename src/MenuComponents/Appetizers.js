@@ -24,7 +24,7 @@ export const Appetizers = () => {
         <div className='price'>$5.25</div>
       </div>
       <div className='menu-line'>
-        <div className='menu-item-name'>A6 – STEAMED OR FRIED DRUMPLINGS (6)</div>
+        <div className='menu-item-name'>A6 – STEAMED OR FRIED DUMPLINGS (6)</div>
         <div className='price'>$6.25</div>
       </div>
       <div className='menu-line'>

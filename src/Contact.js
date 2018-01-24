@@ -16,25 +16,25 @@ export const Contact = () => {
         <div className='contact-topic'>
           <h4 className='topic-header'>FOLLOW US</h4>
           <a href='https://www.facebook.com/123PhoRestaurant/'>
-            <div>Facebook logo will go here</div>
+            <img src='assets/facebook.svg' id='facebook-logo' alt='facebook logo'/>
           </a>
         </div>
         <div className='contact-topic'>
           <h4 className='topic-header'>VISIT US</h4>
-          <div id='address'>
+          <div id='address' className='contact-content'>
             11804 E. Oswego Street, Suite C
             Englewood, CO  80112
           </div>
         </div>
         <div className='contact-topic'>
           <h4 className='topic-header'>CONTACT US</h4>
-          <div id='phone'>
+          <div id='phone' className='contact-content'>
             Phone: (303) 471-2228
           </div>
         </div>
         <div className='contact-topic'>
           <h4 className='topic-header'>OUR HOURS</h4>
-          <article id='hours'>
+          <article id='hours' className='contact-content'>
             <div>Dine-In & Carry-Out</div>
             <div>Monday-Saturday:  11:00am – 8:30pm</div>
             <div>Sunday:  Closed</div>

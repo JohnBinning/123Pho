@@ -79,7 +79,6 @@ class Menu extends Component  {
             toggleChoice={ this.toggleChoice.bind(this) }/>
           {menuItem}
         </div>
-        <div id='disclosure'>Call (303) 471-2228 to order. All prices are subject to change without notice.</div>
         <div class='mobile-menu'>
           <article class='mobile-menu-cat'>
             <div class='mobile-menu-title'>Appetizers:</div>
@@ -130,6 +129,7 @@ class Menu extends Component  {
             <Desserts />
           </article>
         </div>
+        <div id='disclosure'>Call (303) 471-2228 to order. All prices are subject to change without notice.</div>
       </section>
     )
   }

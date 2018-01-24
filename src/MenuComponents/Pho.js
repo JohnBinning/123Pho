@@ -12,8 +12,8 @@ export const Pho = () => {
       <div className='menu-line'>
         <div className='menu-item-name'></div>
         <div className='price'>
-          <span className='large'>LARGE</span>
           <span className='small'>SMALL</span>
+          <span className='large'>LARGE</span>
         </div>
       </div>
       <div className='menu-line'>

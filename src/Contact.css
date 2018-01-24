@@ -10,7 +10,17 @@
 }
 
 .contact-info {
-  width: 100%;
+  border-top: 3px solid #E0E0E0;
+  margin: 5%;
+}
+
+.contact-topic {
+  margin: 15px 5%;
+}
+
+.contact-content {
+  font-weight: 300;
+  color: grey;
 }
 
 .inner-divider {
@@ -26,4 +36,8 @@
 
 .cs {
   margin: 25px;
+}
+
+#facebook-logo {
+  max-width: 45px;
 }

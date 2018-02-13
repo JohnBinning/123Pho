@@ -129,7 +129,7 @@ class Menu extends Component  {
             <Desserts />
           </article>
         </div>
-        <div id='disclosure'>Call (303) 471-2228 to order. All prices are subject to change without notice.</div>
+        <div id='disclosure'>Call <a className="phone-number" href="tel:303-471-2228">(303) 471-2228</a> to order. All prices are subject to change without notice.</div>
       </section>
     )
   }

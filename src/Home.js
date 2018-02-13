@@ -15,8 +15,8 @@ export const Home = () => {
         COME ENJOY OUR HOMEMADE FAMILY RECIPES
       </div>
       <div id='external-menus'>
-        <a class="eat24-stnd ext-menu-link" href="http://eat24hrs.com/restaurants/order2/index.php?id=81379" target="_blank" title="Order Online with EAT24">View our menu &amp; order take out</a>
-        <a class="chow-now ext-menu-link" href='https://ordering.chownow.com/order/9341/locations' target="_blank">View our menu &amp; order delivery </a>
+        <a className="eat24-stnd ext-menu-link" href="http://eat24hrs.com/restaurants/order2/index.php?id=81379" target="_blank" title="Order Online with EAT24">View our menu &amp; order take out</a>
+        <a className="chow-now ext-menu-link" href='https://ordering.chownow.com/order/9341/locations' target="_blank">View our menu &amp; order delivery </a>
       </div>
       <div id='photo-wrapper'>
         <img className='menu-photo' alt='pic of grilled shrimp vermicelli bowl' src='assets/B7-Grilled-Shrimp-Vermicelli-Bowl.jpg'/>

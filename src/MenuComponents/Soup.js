@@ -11,7 +11,7 @@ export const Soup = () => {
         </div>
       </div>
       <div className='menu-line'>
-        <div className='menu-item-name'>HOT & SOUR SOUP<div className='menu-modifier'>Spicy</div></div>
+        <div className='menu-item-name'>HOT & SOUR SOUP<div className='menu-modifier mm-spicy'>Spicy</div></div>
         <div className='price'>
           <span className='small-price left-table'>$3.50</span>
           <span className='large-price right-table'>$5.95</span>

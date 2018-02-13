@@ -10,7 +10,7 @@ export const BahnMi = () => {
         <div id='description-addition'>(+$2.00 for Shrimp or Combination)</div>
       </div>
       <div className='menu-line'>
-        <div className='menu-item-name'>BÁNH MÍ – VIETNAMESE SANDWICH <div className='menu-item-description'>Choice Of Grilled Chicken, Pork, Beef, Or Tofu</div><div className='menu-modifier'>Spicy</div></div>
+        <div className='menu-item-name'>BÁNH MÍ – VIETNAMESE SANDWICH <div className='menu-item-description'>Choice Of Grilled Chicken, Pork, Beef, Or Tofu</div><div className='menu-modifier mm-spicy'>Spicy</div></div>
         <div className='price'>$5.95</div>
       </div>
     </section>

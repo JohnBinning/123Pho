@@ -29,7 +29,7 @@ export const Contact = () => {
         <div className='contact-topic'>
           <h4 className='topic-header'>CONTACT US</h4>
           <div id='phone' className='contact-content'>
-            Phone: (303) 471-2228
+            Phone: <a href="tel:303-471-2228">(303) 471-2228</a>
           </div>
         </div>
         <div className='contact-topic'>

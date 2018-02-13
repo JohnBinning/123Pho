@@ -10,7 +10,7 @@ export const Salad = () => {
         <div id='description-addition'>(+$2.00 for Shrimp or Combination)</div>
       </div>
       <div className='menu-line'>
-        <div className='menu-item-name'>VIETNAMESE SALAD  <div className='menu-item-description'>Choice Of Grilled Chicken, Pork, Or Beef</div><div className='menu-modifier'>Gluten Free</div></div>
+        <div className='menu-item-name'>VIETNAMESE SALAD  <div className='menu-item-description'>Choice Of Grilled Chicken, Pork, Or Beef</div><div className='menu-modifier mm-gf'>Gluten Free</div></div>
         <div className='price'>$9.95</div>
       </div>
     </section>

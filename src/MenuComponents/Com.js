@@ -15,27 +15,27 @@ export const Com = () => {
         <div className='price'>$10.50</div>
       </div>
       <div className='menu-line'>
-        <div className='menu-item-name'>C2 – GRILLED CHICKEN<div className='menu-modifier'>Gluten Free</div></div>
+        <div className='menu-item-name'>C2 – GRILLED CHICKEN<div className='menu-modifier mm-gf'>Gluten Free</div></div>
         <div className='price'>$10.50</div>
       </div>
       <div className='menu-line'>
-        <div className='menu-item-name'>C3 – GRILLED PORK<div className='menu-modifier'>Gluten Free</div></div>
+        <div className='menu-item-name'>C3 – GRILLED PORK<div className='menu-modifier mm-gf'>Gluten Free</div></div>
         <div className='price'>$10.50</div>
       </div>
       <div className='menu-line'>
-        <div className='menu-item-name'>C4 – GRILLED BEEF<div className='menu-modifier'>Gluten Free</div></div>
+        <div className='menu-item-name'>C4 – GRILLED BEEF<div className='menu-modifier mm-gf'>Gluten Free</div></div>
         <div className='price'>$10.50</div>
       </div>
       <div className='menu-line'>
-        <div className='menu-item-name'>C5 – LIGHTLY FRIED TOFU<div className='menu-modifier'>Gluten Free</div></div>
+        <div className='menu-item-name'>C5 – LIGHTLY FRIED TOFU<div className='menu-modifier mm-gf'>Gluten Free</div></div>
         <div className='price'>$10.50</div>
       </div>
       <div className='menu-line'>
-        <div className='menu-item-name'>C6 – GRILLED SHRIMP & CHICKEN<div className='menu-modifier'>Gluten Free</div></div>
+        <div className='menu-item-name'>C6 – GRILLED SHRIMP & CHICKEN<div className='menu-modifier mm-gf'>Gluten Free</div></div>
         <div className='price'>$12.95</div>
       </div>
       <div className='menu-line'>
-        <div className='menu-item-name'>C7 – GRILLED SHRIMP<div className='menu-modifier'>Gluten Free</div></div>
+        <div className='menu-item-name'>C7 – GRILLED SHRIMP<div className='menu-modifier mm-gf'>Gluten Free</div></div>
         <div className='price'>$12.95</div>
       </div>
       <div className='menu-line'>

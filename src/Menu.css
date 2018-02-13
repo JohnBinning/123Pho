@@ -50,6 +50,12 @@
   text-align: left;
 }
 
+.as-item-name {
+  text-align: left;
+  flex-direction: column;
+  display: flex;
+}
+
 .menu-modifier {
   color: white;
   display: flex;
@@ -75,6 +81,11 @@
   color: #454746;
   font-size: .9rem;
   margin-left: 10px;
+}
+
+.as-item-name .menu-item-description {
+  margin-left: 0;
+  margin-top: 5px;
 }
 
 .price {

@@ -5,7 +5,7 @@ export const Com = () => {
     <article className='menu-cat'>
       <div className='menu-cat-header'>
         <div id='menu-header-description'>
-          Served with Fresh Salad, Peanut Garnish & Vietnamese Chili-Lime Sauce (spicy).
+          Served with Fresh Salad & Vietnamese Chili-Lime Sauce (spicy).
         </div>
         <div id='description-addition'>Add $2.50 for One Additional Crispy Spring Roll</div>
         <div id='description-addition'>Add $3.00 for Each Additional Ingredient</div>

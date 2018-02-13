@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header>To Place Your Order, Call Us at (303) 471-2228 or Visit Us at 11804 E. Oswego Street, Suite C, Englewood, CO 80112</header>
+        <header>To Place Your Order, Call Us at <a className="phone-number" href="tel:303-471-2228">(303) 471-2228</a> or Visit Us at 11804 E. Oswego Street, Suite C, Englewood, CO 80112</header>
         <NavBar />
         <a href='http://123phorestaurant.com' role='link'>
           <img className='logo' alt="123Pho logo" src='assets/123pho-logo.jpg'/>

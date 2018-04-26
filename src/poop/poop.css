@@ -1,0 +1,38 @@
+body {
+  /*background-image: url('./Poop-Emoji.jpg');*/
+  background-image: url('https://m.popkey.co/3a3407/OwYja.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: 'Gaegu', cursive;
+
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+}
+
+.shade {
+  font-family: 'Coustard', serif;
+  font-size: 1.5em;
+  line-height: 32pt;
+  text-shadow: 1px 1px #FF0000;
+}
+
+a {
+  font-family: 'Monoton', cursive;
+  text-shadow: 2px 2px magenta;
+  color: chartreuse;
+}
+
+.spinning-poop-container {
+  display: flex;
+}
+
+@media screen and (max-width: 700px) {
+
+ .spinning-poop-container {
+  flex-direction: column;
+}
+
+}
